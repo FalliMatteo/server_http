@@ -14,7 +14,7 @@ public class App
 {
     public static void sendFile(PrintWriter out, String name){
         try{
-            File file = new File("files" + name);
+            File file = new File("src/files" + name);
             System.out.println(file);
             Scanner scanner = new Scanner(file);
             out.println("HTTP/1.1 200 OK");
