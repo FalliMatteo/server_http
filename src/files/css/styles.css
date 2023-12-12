@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+button{
+    border: 1px solid black;
+}
+
+img{
+    max-width: 300px;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+#container{
+    padding: auto;
+}
+
+#pitone{
+    background-color: green;
+}
+
+#ratto{
+    background-color: gray;
+}
