@@ -2,9 +2,7 @@ package com.script;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
@@ -49,6 +47,7 @@ public class App
                 String data = scanner.nextLine();
                 out.println(data);
             }
+            out.close();
             scanner.close();
         }catch(FileNotFoundException e){
             out.println("HTTP/1.1 404 NOT FOUND");
